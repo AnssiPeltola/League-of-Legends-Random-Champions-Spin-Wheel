@@ -9,9 +9,14 @@
 
 #arrowdown {
   position: absolute;
-  left: 575px;
-  top: 48px;
+  left: 580px;
+  top: 0px;
   z-index: 999;
-  max-width: 50px;
+  max-width: 40px;
   height: auto;
+}
+
+#spinBtn {
+  position: absolute;
+  left: 550px;
 }

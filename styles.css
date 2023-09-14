@@ -1,0 +1,17 @@
+#canvasContainer {
+  position: relative;
+  width: 300px;
+}
+
+#canvas {
+  z-index: 1;
+}
+
+#arrowdown {
+  position: absolute;
+  left: 575px;
+  top: 48px;
+  z-index: 999;
+  max-width: 50px;
+  height: auto;
+}

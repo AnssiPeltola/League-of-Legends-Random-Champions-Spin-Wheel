@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>League of Legends Random Champions Spin Wheel</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="Winwheel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
+  <body>
+    <div id="canvasContainer">
+      <canvas id="canvas" width="1200" height="800">
+        Canvas not supported, use another browser.
+      </canvas>
+      <img id="arrowdown" src="Images/arrowdown.png" alt="Arrow down" />
+    </div>
+
+    <!-- // Then call the startAnimation function when you want the wheel to start spinning.
+    // This might be when the user clicks a "Spin" Button. -->
+    <button onClick="theWheel.startAnimation();">Spin the Wheel</button>
+    <script src="scripts.js"></script>
+  </body>
+</html>

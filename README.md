@@ -12,6 +12,14 @@ This project is a web application that allows you to spin a wheel and get a rand
 
 - Web browser with JavaScript support.
 
+## Tech Stack
+
+This project is built using the following technologies:
+- **HTML:** For structuring the web pages.
+- **CSS:** For styling the web application.
+- **JavaScript:** For interactive elements and game logic.
+- **Winwheel.js:** A JavaScript library for creating the spinning wheel effect.
+
 ## Getting Started
 
 1. Clone or download this repository to your local machine.
